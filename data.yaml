@@ -1,6 +1,7 @@
-train: /content/data/train/images
-val: /content/data/images
-test: /content/data/test/images
+path : /content/data
+train: ../train/images
+val: ../valid/images
+test: ../test/images
 
 nc: 1
 names: ['Pothole']
