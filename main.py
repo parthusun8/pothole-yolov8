@@ -7,8 +7,7 @@ cap = cv2.VideoCapture("../Videos/ppe-3.mp4")  # For Video
 
 model = YOLO("ppe.pt")
 
-classNames = ['Hardhat', 'Mask', 'NO-Hardhat', 'NO-Mask', 'NO-Safety Vest', 'Person', 'Safety Cone',
-              'Safety Vest', 'machinery', 'vehicle']
+classNames = ['pothole']
 myColor = (0, 0, 255)
 while True:
     success, img = cap.read()
