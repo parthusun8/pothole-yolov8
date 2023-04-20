@@ -29,12 +29,8 @@ while True:
             currentClass = classNames[cls]
             print(currentClass)
             if conf>0.5:
-                if currentClass =='NO-Hardhat' or currentClass =='NO-Safety Vest' or currentClass == "NO-Mask":
+                if currentClass =='Potholes':
                     myColor = (0, 0,255)
-                elif currentClass =='Hardhat' or currentClass =='Safety Vest' or currentClass == "Mask":
-                    myColor =(0,255,0)
-                else:
-                    myColor = (255, 0, 0)
 
                 cvzone.putTextRect(img, f'{classNames[cls]} {conf}',
                                    (max(0, x1), max(35, y1)), scale=1, thickness=1,colorB=myColor,
