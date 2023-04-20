@@ -2,7 +2,7 @@
 Pothole Detection - v2 2023-04-20 3:02pm
 ==============================
 
-This dataset was exported via roboflow.com on April 20, 2023 at 9:33 AM GMT
+This dataset was exported via roboflow.com on April 20, 2023 at 2:35 PM GMT
 
 Roboflow is an end-to-end computer vision platform that helps you
 * collaborate with your team on computer vision projects
@@ -18,7 +18,7 @@ visit https://github.com/roboflow/notebooks
 To find over 100k other datasets and pre-trained models, visit https://universe.roboflow.com
 
 The dataset includes 664 images.
-Pothole are annotated in YOLO v5 PyTorch format.
+Pothole are annotated in YOLOv8 format.
 
 The following pre-processing was applied to each image:
 * Resize to 640x640 (Stretch)
