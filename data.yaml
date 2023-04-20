@@ -1,4 +1,4 @@
-path : ./content/data
+path : ../data
 train: ../train/images
 val: ../valid/images
 test: ../test/images
