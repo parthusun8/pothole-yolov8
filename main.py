@@ -6,7 +6,6 @@ def putTextRect(img, text, pos, scale=3, thickness=3, offset=10, border=None):
         color = (0, 0, 255)
         ox, oy = pos
         (w, h), _ = cv2.getTextSize(text, cv2.FONT_HERSHEY_PLAIN, scale, thickness)
-
         x1, y1, x2, y2 = ox - offset, oy + offset, ox + w + offset, oy - h - offset
 
         cv2.rectangle(img, (x1, y1), (x2, y2), color, cv2.FILLED)
